@@ -5,7 +5,7 @@ import "@puckeditor/core/puck.css";
 
 const config: Config = {
   components: {
-    InputBlock: {
+    Example: {
       render: (): ReactElement => (
         <label style={{ display: "block", padding: 32 }}>
           Text input:{" "}
@@ -22,9 +22,9 @@ const config: Config = {
 
 const data: Data = {
   root: { props: {} },
-  content: [{ type: "InputBlock", props: { id: "input-block" } }],
+  content: [{ type: "Example", props: { id: "example" } }],
 };
 
 createRoot(document.getElementById("root")!).render(
-  <Puck config={config} data={data} headerTitle="Puck input test" />
+  <Puck config={config} data={data} headerTitle="Puck test" />
 );

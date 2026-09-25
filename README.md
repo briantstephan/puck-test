@@ -12,3 +12,9 @@ npm run dev
 ```
 
 Open the local URL that Vite prints.
+
+## Share a test
+
+Edit `src/main.tsx` to show one case. Push the change to `main`. The Pages workflow will publish it at https://briantstephan.github.io/puck-test/.
+
+Keep each test in its own commit. Revert that commit and push to restore the base version.
