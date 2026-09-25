@@ -1,0 +1,26 @@
+{
+  "name": "puck-input-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:pages": "tsc --noEmit && vite build --base=/puck-test/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@puckeditor/core": "0.23.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.8.3",
+    "vite": "7.3.2"
+  }
+}
